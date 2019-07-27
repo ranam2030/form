@@ -8,11 +8,6 @@
 header{
 	background-color: #484545;
 }
-mark{
-	background-color: #505050;
-	color: green;
-	font-size: 28px
-}
 nav{
 
 }
@@ -41,7 +36,9 @@ nav ul li a img{
 	width: 100px;
 }
 section{
-	background-color: #505050;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) border-box, url(../image/background.jpg) no-repeat, center, center;
+    background-size: cover;
+    height: 100vh;
 }
 .continer{
 	width: 100%;
@@ -54,6 +51,7 @@ section{
 	margin-top: 250px;
 	float: left;
 }
+
 .text h2{
 	margin: auto;
 	display: block;
@@ -64,12 +62,15 @@ section{
 	color: green;
 }
 .text p{
+	text-align: center;
 	color: white;
-	padding: 10px;
+	padding: 0px;
 }
 .text ul{
 
-margin-left: 294px;
+/* margin-left: 294px; */
+
+/* text-align: center; */
 
 list-style: none;
 
@@ -96,6 +97,16 @@ display: block;
 .text ul li i{
 	text-align: center;
 	float: left;
+}
+.one{
+	
+width: 31%;
+	
+display: inline-block;
+	
+vertical-align: middle;
+	
+/* text-align: center; */
 }
 .form{
 	width: 50%;
